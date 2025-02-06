@@ -9,6 +9,7 @@ namespace HouseRentingSystem.Tests.IntegrationsTests
 
         [OneTimeSetUp]
         public void SetUp()
+
             => this.statisticsController =
                 new StatisticsApiController(StatisticsServiceMock.Instance);
 
